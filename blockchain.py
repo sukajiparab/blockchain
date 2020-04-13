@@ -1,11 +1,11 @@
 import datetime
 import hashlib
 class Block:
-    blockNo = 0
-    data = None
-    next = None
-    hash = None
-    nonce = 0
+    blockNo=0
+    data= None
+    next=None
+    hash=None
+    nonce=0
     previous_hash = 0x0
     timestamp = datetime.datetime.now()
     def __init__(self, data):
